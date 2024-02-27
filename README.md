@@ -14,12 +14,12 @@ Multi-Task Deep Neural Networks（MT-DNN）を使用したマルチタスク学�
  ```
  > pip install -r requirements.txt
  > docker pull allenlao/pytorch-mt-dnn:v1.3
- > docker run -it --rm --runtime nvidia  allenlao/pytorch-mt-dnn:v1.3 bash`
+ > docker run -it --rm --runtime nvidia  allenlao/pytorch-mt-dnn:v1.3 bash
  ```
  <br>
 3. 用意した5分割されたデータセットをMT-DNNのフォーマットにそれぞれ変える． <br> 
 
-`> sh prepro.sh`
+`> sh prepro.sh` <br> 
 中身は以下のコマンドをデータセット分用意したものである．<br>
  `> python prepro_std.py --model xlm-roberta-large --root dataset/mcduration/0/ --task_def experiments/mcduration_task_def.yml` 
 <br>
