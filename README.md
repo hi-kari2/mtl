@@ -11,11 +11,11 @@ Multi-Task Deep Neural Networks（MT-DNN）を使用したマルチタスク学�
  `> git clone https://github.com/hi-kari2/mtl.git`
  <br>
 2. 環境を構築する．<br>
- ```
- > pip install -r requirements.txt
- > docker pull allenlao/pytorch-mt-dnn:v1.3
- > docker run -it --rm --runtime nvidia  allenlao/pytorch-mt-dnn:v1.3 bash
- ```
+
+ `> pip install -r requirements.txt`
+ `> docker pull allenlao/pytorch-mt-dnn:v1.3`
+ `> docker run -it --rm --runtime nvidia  allenlao/pytorch-mt-dnn:v1.3 bash`
+
  <br>
 3. 用意した5分割されたデータセットをMT-DNNのフォーマットにそれぞれ変える． <br> 
 
