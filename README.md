@@ -22,7 +22,7 @@ Multi-Task Deep Neural Networks（MT-DNN）を使用したマルチタスク学�
  <br> 
 中身は以下のコマンドをデータセット分用意したものである．<br>
  `> python prepro_std.py --model xlm-roberta-large --root dataset/mcduration/0/ --task_def experiments/mcduration_task_def.yml` 
-<br>
+<br><br>
 4. マルチタスク学習をする<br>
  複数のデータでマルチタスク学習をする場合，使用するデータセットは同じフォルダ内に存在する必要があるため，事前に移動させておく．<br>
  `> sh run.sh` 
